@@ -44,6 +44,10 @@ WORKLOADS = {
   'wmt_jax': {
     'workload_path': 'workloads/wmt/wmt_jax/workload.py',
     'workload_class_name': 'WMTWorkload'
+  },
+  'ogbg_jax': {
+    'workload_path': 'workloads/ogbg/ogbg_jax/workload.py',
+    'workload_class_name': 'OGBGWorkload'
   }
 }
 
